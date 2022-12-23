@@ -63,4 +63,36 @@
 
 
 - mlflow.set_tracking_uri("sqlite:////home/pmspraju/tracking-server/mlflow.db")
+- Create an experiment - if experiment name is not unique, exception is given
+
+```
+experiment_id = mlflow.create_experiment(
+        "nyc-taxi-experiment-1",
+        #artifact_location=Path.cwd().joinpath("mlruns").as_uri(),
+        artifact_location='//home/pmspraju/tracking-server/mlruns/',
+        tags={"version": "v1", "priority": "P1"},
+)
+```
+
 - mlflow.set_experiment("nyc-taxi-experiment")
+
+- Start the run of the experiment and track
+
+```
+with mlflow.start_run():
+  mlflow.set_tag("developer", "Madhu")
+  mlflow.log_param("train-data-path", "/home/pmspraju/tracking-server/data/green_tripdata_2021-01.parquet")
+  mlflow.log_param("valid-data-path", "/home/pmspraju/tracking-server/data/green_tripdata_2021-02.parquet")
+
+  alpha = 0.1
+  mlflow.log_param("alpha", alpha)
+  
+  mlflow.set_tag("model", "lasso")
+  lr = Lasso(alpha)
+  lr.fit(X_train, y_train)
+  y_pred = lr.predict(X_val)
+  rmse = mean_squared_error(y_val, y_pred, squared=False)
+  mlflow.log_metric("rmse", rmse)
+
+  mlflow.log_artifact(local_path="/home/pmspraju/tracking-server/models/lin_reg.bin", artifact_path="models_pickle")
+```
