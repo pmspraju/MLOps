@@ -1,11 +1,5 @@
-# MLOps
-## MLFLOW:
+# Linux Commands:
 
-https://github.com/DataTalksClub/mlops-zoomcamp
-https://www.youtube.com/playlist?list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK
-
-### Linux Commands:
-<br>
 - Find the ubuntu version - cmd command
   <br> wsl -l -v
 
