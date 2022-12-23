@@ -80,3 +80,11 @@ https://www.youtube.com/playlist?list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK
   
 - rename a file in the same directory
   <br> mv oldfilename newfilename 
+
+- Git command to commit from wsl
+  <br> git config --global user.name "Your Name"
+  <br> git config --global user.email "youremail@domain.com"
+  <br> If GIT installed is >= v2.36.1
+  <br>  git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/bin/git-credential-manager-core.exe"
+  <br> Else
+  <br>  git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/libexec/git-core/git-credential-manager.exe"
