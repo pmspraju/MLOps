@@ -96,3 +96,10 @@ with mlflow.start_run():
 
   mlflow.log_artifact(local_path="/home/pmspraju/tracking-server/models/lin_reg.bin", artifact_path="models_pickle")
 ```
+
+- Command to run mlflow in aws console 
+
+```
+mlflow server -h 0.0.0.0 -p 5000 --backend-store-uri postgresql://db_user_name:db_password@aws_db_endpoint:5432/db_name --default-artifact-root s3://s3_bucket_name
+```
+
