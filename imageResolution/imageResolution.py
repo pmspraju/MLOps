@@ -5,7 +5,7 @@
 
 
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+#os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 import pathlib
 from glob import glob
 
@@ -22,7 +22,9 @@ from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.preprocessing.image import *
 
 print(f'Pandas:{pd.__version__}, Numpy:{np.__version__}, Tensorflow:{tf.__version__}')
+print("----Num GPUs Available: ", len(tf.config.list_physical_devices('GPU')))
 
+exit()
 
 # In[2]:
 
