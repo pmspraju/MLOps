@@ -8,11 +8,11 @@
 <br>  https://www.youtube.com/playlist?list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK
 
 
-## Development workflow 
+- Development workflow 
 <img src="Files/Screenshots/DevStage.png"  width="650" height="650">
 
-## Staging workflow
+- Staging workflow
 <img src="Files/Screenshots/Staging.png"  width="650" height="650">
 
-## Production workflow
+- Production workflow
 <img src="Files/Screenshots/Production.png"  width="650" height="650">
