@@ -18,4 +18,4 @@
 ![Alt text](Files/Screenshots/Production.png)
 
 ## Test
-<img src="Files/Screenshots/DevStage.png"  width="600" height="300">
+<img src="Files/Screenshots/DevStage.png"  width="600" height="600">
