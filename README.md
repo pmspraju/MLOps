@@ -16,5 +16,3 @@
 
 ## Production workflow
 <img src="Files/Screenshots/Production.png"  width="650" height="650">
-
-## Test
