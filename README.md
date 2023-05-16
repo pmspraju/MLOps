@@ -9,13 +9,12 @@
 
 
 ## Development workflow 
-![Alt text](Files/Screenshots/DevStage.png)
+<img src="Files/Screenshots/DevStage.png"  width="650" height="650">
 
 ## Staging workflow
-![Alt text](Files/Screenshots/Staging.png)
+<img src="Files/Screenshots/Staging.png"  width="650" height="650">
 
 ## Production workflow
-![Alt text](Files/Screenshots/Production.png)
+<img src="Files/Screenshots/Production.png"  width="650" height="650">
 
 ## Test
-<img src="Files/Screenshots/DevStage.png"  width="600" height="600">
