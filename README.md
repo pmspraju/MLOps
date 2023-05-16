@@ -10,12 +10,9 @@
 
 ### Development workflow:
 <img src="Files/Screenshots/DevStage.png"  width="650" height="650"> 
-<br>
 
 ### Staging workflow:
 <img src="Files/Screenshots/Staging.png"  width="650" height="650"> 
-<br>
 
 ### Production workflow:
 <img src="Files/Screenshots/Production.png"  width="650" height="650"> 
-<br>
