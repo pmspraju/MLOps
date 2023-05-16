@@ -102,5 +102,3 @@ with mlflow.start_run():
 ```
 mlflow server -h 0.0.0.0 -p 5000 --backend-store-uri postgresql://db_user_name:db_password@aws_db_endpoint:5432/db_name --default-artifact-root s3://s3_bucket_name
 ```
-
-image.png
