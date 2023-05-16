@@ -8,11 +8,14 @@
 <br>  https://www.youtube.com/playlist?list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK
 
 
-### Development workflow 
-<br> <img src="Files/Screenshots/DevStage.png"  width="650" height="650">
+### Development workflow:
+<img src="Files/Screenshots/DevStage.png"  width="650" height="650"> 
+<br>
 
-### Staging workflow
-<br> <img src="Files/Screenshots/Staging.png"  width="650" height="650">
+### Staging workflow:
+<img src="Files/Screenshots/Staging.png"  width="650" height="650"> 
+<br>
 
-### Production workflow
-<br> <img src="Files/Screenshots/Production.png"  width="650" height="650">
+### Production workflow:
+<img src="Files/Screenshots/Production.png"  width="650" height="650"> 
+<br>
