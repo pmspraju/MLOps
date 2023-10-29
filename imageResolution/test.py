@@ -8,9 +8,13 @@ import matplotlib.pyplot as plt
 from tokenizer import SimpleTokenizerLocal
 from diffusion import StableDiffusionLocal
 
+print("================================================================")
 print("----TensorFlow version:", tf.__version__)
 print("----Keras version:", keras.__version__)
 print("----Num GPUs Available: ", len(tf.config.list_physical_devices('GPU')))
+print(tf.test.is_built_with_cuda())
+print("================================================================")
+
 #os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 #os.environ["tf_gpu_allocator"]="cuda_malloc_async"
 tf.keras.mixed_precision.set_global_policy("mixed_float16")
@@ -70,7 +74,7 @@ def plot_images(images):
         plt.axis("off")
 
 
-plot_images(images)
+#plot_images(images)
 
 # class GrandParent(object):
 #     def __init__(self):
